@@ -6,7 +6,7 @@
 	<groupId>com.luv2code.springboot</groupId>
 	<artifactId>cruddemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>cruddemo</name>
 	<description>Demo project for Spring Boot</description>
@@ -52,6 +52,7 @@
 	</dependencies>
 
 	<build>
+	  <finalName>curddemo</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
